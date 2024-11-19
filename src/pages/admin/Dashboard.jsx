@@ -13,7 +13,7 @@ const Dashboard = () => {
       getDashData();
       getAllAppointments()
     }
-  }, [aToken, dashData]);
+  }, [aToken]);
 
   return (
     dashData && (

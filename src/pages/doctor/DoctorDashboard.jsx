@@ -13,7 +13,7 @@ const DoctorDashboard = () => {
       getAppointments()
 
     }
-  }, [dToken, dashData])
+  }, [dToken])
 
   return dashData && (
     <div className="m-5">
